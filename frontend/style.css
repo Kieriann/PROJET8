@@ -1,0 +1,223 @@
+body {
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+
+    background-color: #ffcccc;
+    color: #000000;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+h1{
+    font-family: 'Big Shoulders Stencil Display', sans-serif;
+    font-size: 100px;
+}
+
+h1, h2 {
+    color: #000000;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #492f2f;
+    color: #f0cece;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.cta-button:hover {
+    background-color: #555;
+}
+
+.about, .services, .contact {
+    background-color: #fff;
+    padding: 80px 0;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+footer {
+    background-color: #ffcccc;
+    color: #333;
+    text-align: center;
+    padding: 20px ;
+}
+
+.banner {
+    background-color: #ffcccc;
+    color: #000000;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.banner h1, .banner p {
+    color: #000000;
+    
+}
+
+.banner .cta-button {
+    margin-top: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.banner p {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center; 
+    gap: 50px;
+}
+
+.content2 {
+    display: flex;         
+    align-items: flex-start; 
+    justify-content: center; 
+    max-width: 800px;       
+    margin: 0 auto 50px;   
+}
+
+.content2-text {
+    flex-grow: 1;           
+    text-align: left;   
+    padding-top: 50px;    
+}
+
+.content2 img {
+max-width: 180px;    
+border-radius: 30px;
+margin-left: 50px;
+box-shadow: 10px 10px 8px rgba(0, 0, 0, 0.4);
+}
+
+.content3 {
+    display: flex;         
+    align-items: flex-start; 
+    justify-content: center; 
+    max-width: 800px;       
+    margin: 0 auto 50px; 
+}
+
+.content3-text {
+    text-align: right;   
+}
+
+.content3 img {
+max-width: 180px;    
+border-radius: 30px;
+margin-right: 100px;
+padding-top: 50px;
+}
+
+.titleprojets {
+    margin-bottom: 50px;
+    margin-left: 500px;
+    }
+
+.projets {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.projets img {
+max-width: 650px;
+margin: 10px;
+border-radius: 20px;
+box-shadow: 10px 10px 8px rgba(0, 0, 0, 0.4);
+cursor: pointer;
+
+}
+
+.photos p{
+    max-width: 670px;
+    padding-left: 20px;
+    margin-bottom: 100px;
+
+}
+
+.photos1 p{
+    max-width: 670px;
+    padding-left: 20px;
+    margin-bottom: 100px;
+}
+
+.contact{
+    grid-column: 2 / span 2;
+    grid-row: 2; 
+    color: #302424;
+    text-align: center;
+}
+
+.pdp{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    align-items: center;
+
+}
+
+.bichette{
+grid-column: 1 / span 2;
+font-family: 'Big Shoulders Stencil Display', sans-serif;
+    font-size: 50px;
+}
+
+.reseau{
+    grid-column: 6 / span 1;
+}
