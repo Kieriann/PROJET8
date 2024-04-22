@@ -221,3 +221,47 @@ font-family: 'Big Shoulders Stencil Display', sans-serif;
 .reseau{
     grid-column: 6 / span 1;
 }
+
+@media only screen and (max-width: 600px) {
+
+   html {
+    width: 100%;
+   }
+   
+    body {
+        width: 600px;
+    }
+
+    .banner {
+        width: 100%;
+    }
+
+    .about {
+        padding-bottom: 0;
+    }
+
+    .content2-text{
+        margin-left: 50px;
+    }
+
+    .content3-text{
+        margin-right: 50px;
+
+    }
+
+    .projets img {
+        width:90%;
+        justify-content: center;
+        margin-left: 20px;
+    }
+
+    .titleprojets {
+        margin-left: 50px;
+    }
+
+    .contact {
+        padding-top: 0;
+    }
+
+
+}
