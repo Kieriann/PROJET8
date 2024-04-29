@@ -165,9 +165,10 @@ padding-top: 50px;
 }
 
 .titleprojets {
-    margin-bottom: 50px;
-    margin-left: 500px;
+  text-align: center;
     }
+
+    
 
 .projets, .formation, .langages {
     display: flex;
@@ -182,7 +183,11 @@ margin: 10px;
 border-radius: 20px;
 box-shadow: 10px 10px 8px rgba(0, 0, 0, 0.4);
 cursor: pointer;
+}
 
+.contact {
+    max-width: 50%;
+    margin: 0 auto;
 }
 
 .photos p{
